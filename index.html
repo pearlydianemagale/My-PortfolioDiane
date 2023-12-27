@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/catweb.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearly Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7cd32a533a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <image src="myData/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Welcome</p>
+                <h1 class="jun">Hi, I'm Pearly Diane <span>Magale</span><br> </h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myData/pic1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="mel"> 
+                      I'm PEARLY DIANE MAGALE, I'm going to tell you a little bit about my self, I usually tend to have an optimistic outlook of life. And I always made it my hardest to try making the right decision. I'm self- determined, if you want something, I would try to ultimate best to do so. Another is that I'm always up for a challenge. I like to experience new things. I love do some sport like badminton. There are many things I like to do, to see and to experience. I like to dance, I like business.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Data Encoder</span><br> As a meticulous data encoder, I ensure accuracy and efficiency in handling and inputting information.</li>
+                                <li><span>Graphic Designing</span><br>Proficient in graphic design, I bring creativity to life through visual elements, creating captivating designs that resonate with audiences.</li>
+                                <li><span>Web Developing</span><br>With a keen eye for detail and a commitment to excellence, I bring a well-rounded set of skills to any project, contributing to its success and effectiveness.</li> 
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>MIS Office</span><br>Work Immersion at LGU Maribojoc, Bohol </li>
+                                <p>December-January 2020</p> 
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>College</span><br>Bohol Island State University<br>BS in Information Techonology<br></li><p>2021-Current</p>
+                                <li><span>Senior High</span><br> Pagnitoan National High School<br> Maribojoc, Bohol</li><p>2019-2020</p>
+                                <li><span>Juniur High</span><br>Pagnitoan National High School<br>Maribojoc, Bohol</li> <p>2017-2018</p>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ------------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="myData/skil.jpg">
+                    <div class="layer">
+                        <h3>Data Encoding</h3>
+                        <p>precision is not just a habit; it is a commitment to ensuring accuracy in handling and inputting information.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="myData/skill.jpg">
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <p> I bring concepts to life through visual storytelling. Whether it's crafting captivating visuals or developing eye-catching branding materials, my creative touch adds depth to every project.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="myData/skills.jpg">
+                    <div class="layer">
+                        <h3>Web Developer</h3>
+                        <p>I navigate the intricacies of coding to create responsive and visually appealing websites.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-- ------------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Get in Touch</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>yaniebebero@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+639-48-631-1509</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" ></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" target="_blank" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© ItsDiane, All Rights Reserved • Credits <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+    <script>
+        
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+       
+    </script>
+
+    <script>
+        
+        var sidemeu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemeu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+        //https://script.google.com/macros/s/AKfycbykBYS35iAZbjTuFv5V_1LeJ8K9wMKqzOLXjV9bGndNPg7Hiwr_kgswS2lAvBe_9Xx1/exec
+
+    
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbykBYS35iAZbjTuFv5V_1LeJ8K9wMKqzOLXjV9bGndNPg7Hiwr_kgswS2lAvBe_9Xx1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
